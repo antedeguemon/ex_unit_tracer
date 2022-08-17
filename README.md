@@ -12,7 +12,7 @@ It may be useful for:
 You may run the [`mix test.calls`](/lib/mix/tasks.test.calls.ex) task, which will execute your project's test
 suite and print all called functions.
 
-```iex
+```elixir
 $ mix test.calls
 
 %{
