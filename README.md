@@ -9,7 +9,7 @@ It may be useful for:
 
 ## Example
 
-You can run the `mix test.calls` task, which will execute your project's test
+You may run the [`mix test.calls`](/lib/mix/tasks.test.calls.ex) task, which will execute your project's test
 suite and print all called functions.
 
 ```iex
