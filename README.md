@@ -1,16 +1,17 @@
 # ExUnitTracer
 
-Example project about tracing inside ExUnit. 
+An example project about tracing inside ExUnit. 
 
-It may be useful for:
-- Extracting functions executed during tests
-- Fetching test context without directly accessing the test context
-- Managing the test suite control flow
+It contains examples of:
+- [Extracting functions executed during tests](/test/ex_unit_tracer_test.exs#L5)
+- [Fetching test context without directly accessing the test context](/test/ex_unit_tracer_test.exs#L18)
+- [Managing the test suite control flow](/lib/ex_unit_tracer.ex#L17)
 
 ## Example
 
-You may run the [`mix test.calls`](/lib/mix/tasks.test.calls.ex) task, which will execute your project's test
-suite and print all called functions.
+You may run the [`mix test.calls`](/lib/mix/tasks.test.calls.ex) task, which
+will execute your project's test suite and print all functions called during
+test runtime.
 
 ```elixir
 $ mix test.calls
